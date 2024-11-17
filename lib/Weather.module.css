@@ -1,0 +1,57 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.searchBar {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+.weatherInfo {
+  margin-top: 20px;
+}
+
+.forecastDetails {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.forecastDetails div {
+  background-color: #0288d1;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  width: 30%;
+}
